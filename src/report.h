@@ -15,7 +15,8 @@ struct kissat;
 
 void kissat_report (struct kissat *, bool verbose, char type);
 
-#define REPORT(LEVEL, TYPE) kissat_report (solver, (LEVEL), (TYPE))
+#define REPORT(LEVEL, TYPE)  \
+  kissat_report(solver, (LEVEL), (TYPE))
 
 #endif
 

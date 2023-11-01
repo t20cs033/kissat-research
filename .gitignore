@@ -10,3 +10,7 @@ tissat
 *.gcov
 gmon.out
 *~
+
+#added by Daisuke Nako
+kissat.code-workspace
+launch.json
